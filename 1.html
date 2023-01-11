@@ -1,0 +1,110 @@
+1.글자 굵게 하기<br><br>    
+    <strong>(굵은글자)</strong><br><br>
+
+2.글자 밑줄 치기 <br><br>
+    <u>밑줄치기</u> <br><br>
+
+3.글자 제목 h1~h6 <br><br>
+<h1>제목</h1><br><br>
+
+4.글자 줄바꿈 두가지<br><br>
+    <p>줄바꾸기 </p>줄바꾸기<br><br>
+
+5.그림 넣기<br><br> 
+    <img width="200" src="코딩.jpg"><br><br>
+
+6.목차 설정 <br><br>
+
+1)목차 묶음 UL<br><br>
+<ul>    
+    <LI>1. HTML</LI><br>
+    <LI>2. CSS</LI><br>
+    <LI>3. JavaScript</LI><br>
+</ul>
+
+<ul>
+    <LI>1. HTML</LI><br>
+    <LI>2. CSS</LI><br>
+    <LI>3. JavaScript</LI><br>
+</ul>
+2)자동 순서 삽입 OL
+<ol>
+    <LI> HTML</LI>
+    <LI> CSS</LI>
+    <LI> JavaScript</LI>
+</Ol>
+
+7. 타이틀 주소넷 이름 삽입 <br><br>
+    <TItle>WAB1-YJM</TItle><br>
+
+8. 문자 깨짐 ( UTF-8 )<br><br>  
+    <META charset="UTF-8"><br>
+
+9. 작성 구조 (국룰) <br><br>
+
+<!doctype html>
+    <html>
+        <head>
+            <title>WAB1-YJM</title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+        ( 본문내용 순서대로 작성한다 )
+
+        </body>
+    </html>
+    <br>
+10. 하이퍼링크<br><br>
+    <a href="https://www.naver.com/" target="-blank" title="네이버">하이퍼링크</a> <br>
+
+11. 체크박스 삽입<br><br>
+    <input type="checkbox"><br><br>
+
+12. 동영상 삽입<br><br>
+    <p>
+        <iframe width="300" height="200" 
+        src="https://www.youtube.com/embed/7T7r_oSp0SE?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" 
+        title="WEB1 부록 - 코드의 힘 : 동영상 삽입" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </p>
+
+13.댓글 추가하기 https://disqus.com/<br><br>
+    <p>
+        <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://web1-w6myde8rdz.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
+
+14.채팅창 추가하기 tawk.to<br><br>
+
+<p>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/63be5de2c2f1ac1e202cd0f7/1gmfptf8c';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</p>
